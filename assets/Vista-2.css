@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+    font-size: 21px;
+}
+
+.section,.section2 {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 27px
+}
+/*el seccion 2 es para el margin nada mas  ya que comparten todo con el primer section*/
+.Imagen1,.Imagen4,.Imagen2,.Imagen3,.Imagen5{
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    border-radius: 5px;
+   
+}
+
+.Imagen1{
+    width: 262px;
+    height:262px;
+    box-shadow: 0 0 5px rgba(37, 11, 1, 0.76);
+    padding:2px;
+    
+    
+}
+
+.Imagen2{
+    width: 459px;
+    height:290px;
+    box-shadow: 0 0 5px rgba(39, 73, 136, 0.979);
+    
+
+}
+.Imagen3,.Imagen4{
+    width: 389px;
+    height:250px;
+    box-shadow: 0 0 5px rgba(27, 55, 145, 0.76);
+    
+}
+.Imagen5{
+    box-shadow: 0 0 7px  #f0f0f0;;
+}
